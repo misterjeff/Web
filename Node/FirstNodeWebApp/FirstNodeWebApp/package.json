@@ -1,0 +1,22 @@
+{
+  "name": "first-node-web-app",
+  "version": "0.0.0",
+  "description": "FirstNodeWebApp",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "scripts": {
+    "build": "webpack-cli app.tsx --config webpack-config.js"
+  }
+}
